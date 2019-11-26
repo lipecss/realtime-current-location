@@ -3,14 +3,14 @@ This will render a map with your location, perfectly centered horizontally and v
 
 [![](https://raw.githubusercontent.com/lipecss/realtime-current-location/master/demo.png)](http://https://raw.githubusercontent.com/lipecss/realtime-current-location/master/demo.png)
 
-###Install
+### Install
 
 ```shell
 $ npm install
 $ npm start
 ```
 
-###License
+### License
 
 Copyright (c) 2019 Felipecss. (ISC)
 
