@@ -1,4 +1,4 @@
-# Editor.md
+# Current Location
 This will render a map with your location, perfectly centered horizontally and vertically with a box contains all your informations
 
 [![](https://raw.githubusercontent.com/lipecss/realtime-current-location/master/demo.png)](http://https://raw.githubusercontent.com/lipecss/realtime-current-location/master/demo.png)
