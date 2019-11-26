@@ -1,27 +1,30 @@
 {
   "name": "blessedcontrib",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Simple Widget Map with Blessed",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Felipecss",
+  "author": {
+    "name": "FelipeCss",
+    "url": "https://vemlavaralouca.com.br"
+  },
   "contributors": [
     {
       "name": "Tonhao Santos",
       "url": "https://vemlavaralouca.com.br"
     }
   ],
-  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lipecss/realtime-current-location/issues"
+  },
+  "homepage": "https://github.com/lipecss/realtime-current-location#readme",
   "dependencies": {
     "axios": "^0.19.0",
     "blessed": "^0.1.81",
     "blessed-contrib": "^4.8.18",
     "geo-from-ip": "^1.2.3"
   },
-  "bugs": {
-    "url": "https://github.com/lipecss/realtime-current-location/issues"
-  },
-  "homepage": "https://github.com/lipecss/realtime-current-location#readme"
+  "license": "ISC",
 }
