@@ -5,6 +5,8 @@ const blessed = require('blessed')
    , screen = blessed.screen()
    , map = contrib.map({label: 'World Map'})
 
+   screen.title = 'My Location'
+
 axios.get('http://ip-api.com/json/')
 .then(function (response) {
   CreateMap(response.data)
@@ -25,7 +27,6 @@ function CreateMap(local){
   var box = grid.set(55, 25, 26, 25, blessed.box, {content: 'My Location'})
 
   box.setContent(`MY IP ${local.query}\n\nState: ${location.state}\nCity: ${location.city}\nCountry: ${location.country}\nContinent:${location.continent}\nLongitude: ${long}\nLatitude:${lat}`);
-
 
   screen.render()
 }

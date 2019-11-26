@@ -4,9 +4,9 @@
   "description": "Simple Widget Map with Blessed",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  
   "author": "Felipecss",
   "license": "ISC",
   "dependencies": {
@@ -16,7 +16,7 @@
     "geo-from-ip": "^1.2.3"
   },
   "bugs": {
-    "url": "https://github.com/Halfeld/realtime-clock/issues"
+    "url": "https://github.com/lipecss/realtime-current-location/issues"
   },
-  "homepage": "https://github.com/Halfeld/realtime-clock#readme"
+  "homepage": "https://github.com/lipecss/realtime-current-location#readme"
 }
