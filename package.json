@@ -26,5 +26,5 @@
     "blessed-contrib": "^4.8.18",
     "geo-from-ip": "^1.2.3"
   },
-  "license": "ISC",
+  "license": "ISC"
 }
